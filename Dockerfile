@@ -22,8 +22,8 @@ ENV JBOSS_HOME /home/wildfly/current
 # set working directory
 WORKDIR /home/wildfly/current
 
-# create a directory for additional deployments
-RUN mkdir /home/wildfly/current/deployments-extra
+# create a directory for external deployments
+RUN mkdir /home/wildfly/current/deployments.ext
 
 # copy additional files
 COPY wildfly /home/wildfly/current
