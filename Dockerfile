@@ -41,5 +41,5 @@ RUN /home/wildfly/current/bin/add-user.sh --silent=true admin admin123 > /tmp/wi
 # expose ports used by wildfly
 EXPOSE 8080 8443 9990 9993 8787
 
-# set the default command to run on boot
-CMD ["/home/wildfly/current/bin/standalone.sh"]
+# run wildfly launcher on container start
+CMD ["/home/wildfly/current/bin/wildfly.sh"]
