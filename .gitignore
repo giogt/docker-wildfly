@@ -1,6 +1,11 @@
-# IDE config files
-.idea
+# IntelliJ IDEA
+.idea/
 *.iml
+
+# Eclipse
 .classpath
 .project
-.settings
+.settings/
+
+# Visual Studio Code
+.vscode/
