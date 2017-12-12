@@ -1,5 +1,5 @@
 FROM giogt/jdk:1.8.0
-MAINTAINER Giorgio Carlo Gili Tos <giorgio.gilitos@gmail.com>
+LABEL maintainer="Giorgio Carlo Gili Tos <giorgio.gilitos@gmail.com>"
 
 # install packages necessary to run EAP
 RUN yum -y install xmlstarlet saxon augeas && \
